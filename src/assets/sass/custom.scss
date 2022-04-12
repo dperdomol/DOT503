@@ -1,0 +1,13 @@
+$main-color: #eee;
+$result-color: #11f;
+
+body{
+    background-color: $main-color;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#result{
+    font-size: 25px;
+    font-weight: bold;
+    color: $result-color;
+}

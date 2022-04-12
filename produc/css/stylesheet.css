@@ -1,0 +1,39 @@
+body {
+  background-color: #eee;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#result {
+  font-size: 25px;
+  font-weight: bold;
+  color: #11f;
+}
+.container {
+  max-width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 0.5fr 0.5fr 0.5fr;
+  gap: 20px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "Header Header" "Inp1 Inp2" "Operators Operators" "Result Result";
+}
+
+.Header {
+  grid-area: Header;
+}
+
+.Inp1 {
+  grid-area: Inp1;
+}
+
+.Inp2 {
+  grid-area: Inp2;
+}
+
+.Operators {
+  grid-area: Operators;
+}
+
+.Result {
+  grid-area: Result;
+}
