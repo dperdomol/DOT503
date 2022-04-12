@@ -1,6 +1,6 @@
 const assert = require('assert');
 const { expect } = require('chai');
-const { addNumbers, subtraction, multiplication, division} = require("../src/calculator")
+const { addNumbers, subtraction, multiplication, division} = require("../calculator")
 
 describe("The add fucntion", () => {
     it("Should add 2 numbers together", () => {
@@ -24,5 +24,12 @@ describe("The Multiplication function", () => {
     it("Should multiply 2 numbers", () => {
         const result = multiplication(10,7);
         expect(result).to.be.eq(70);
+    });
+});
+
+describe("The Division function", () => {
+    it("Should divide 2 numbers", () => {
+        const result = division(8,2);
+        expect(result).to.be.eq(4);
     });
 });
