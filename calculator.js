@@ -1,24 +1,12 @@
 //alert("Hellow world");
 
-function addNumbers(num1, num2){
-    let res = num1 + num2;
-    return res;
-}
+const addNumbers = (num1, num2) => num1 + num2;
 
-function subtraction(num1, num2){
-    let res = num1 - num2;
-    return res;
-}
+const subtraction = (num1, num2) => num1 - num2;
 
-function multiplication(num1, num2){
-    let res = num1 * num2;
-    return res;
-}
+const multiplication = (num1, num2) => num1 * num2;
 
-function division(num1, num2){
-    let res = num1 / num2;
-    return res;
-}
+const division = (num1, num2) => num1 / num2;
 
 const addButton = document.getElementById("addButton");
 const subButton = document.getElementById("subButton");
