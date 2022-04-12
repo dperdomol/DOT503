@@ -5,6 +5,7 @@ automate processes. In order to run correctly, it is necessary to install the fo
 2. NPM
 
 The following line must be executed after the installation of the programs described above:
+IMPORTANT: BEFORE RUNNING THIS COMMAND, THE CONSOLE MUST BE POINTED AT THE ROOT FOLDER OF THE PROJECT
 
 1. npm install
 
