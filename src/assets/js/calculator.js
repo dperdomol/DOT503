@@ -1,4 +1,4 @@
-alert("Hellow world");
+//alert("Hellow world");
 
 const addNumbers = (num1, num2) => num1 + num2;
 
